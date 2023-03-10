@@ -9,6 +9,13 @@ public class FactoryMain {
             OS obj = osf.getInstance("Closed");
             obj.spec();
 
+
+            obj = osf.getInstance("Open");
+            obj.spec();
+
+            obj = osf.getInstance("Window");
+            obj.spec();
+
     }
 
 }
